@@ -1,0 +1,67 @@
+.item,tr,td{
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+    padding: 25px;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 25px; 
+    width: 200px;
+    color: white;
+   
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    color: white;
+  
+  }
+
+  body{
+    background: linear-gradient(to top, rgb(88, 40, 88) 10%, black 90%);
+  }
+
+  button{
+ width: 220px;
+ height: 65px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 85px;
+ border-radius: 5px;
+ background-color: #000080;
+ font-size: 20px;
+ cursor: pointer;
+ border: 0;
+ box-sizing: border-box;
+ font-family:"Open Sans ";
+
+  }
+
+  a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+  button:hover{
+    animation-name: button;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px  black;
+  
+  }
+
+  @keyframes button{
+
+
+    0%{
+      transform: scale(1);
+    }
+
+    100%{
+      transform: scale(2);
+    }
+   }

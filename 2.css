@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(to top, rgb(88, 40, 88) 10%, black 90%);
+  height: 100vh;
+}
+  
+
+.conteiner{
+  margin: 0 auto;
+  padding: 3%;
+  max-width: 1400px;
+}
+
+nav{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+.logo{
+  font-style: italic;
+  font-weight: bold;
+  color:white;
+  font-size: 35px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 19px;
+  color: white;
+  border-radius: 5px;
+  transition: 0.6s;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover{
+  background-color: purple;
+  color: white;
+}
+
+
+
+.drop-menu{
+  display: none;
+  position: absolute;
+  right: 10%;
+  padding: 20px;
+  margin-bottom: 10px;
+  
+}
+
+.drop-menu a{
+  display: block;
+color: white;
+}
+
+.drop:hover .drop-menu{
+  display: block;
+}
+
